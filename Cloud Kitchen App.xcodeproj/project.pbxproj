@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E8ACFD0270693B20051319E /* Cloud_Kitchen_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFCF270693B20051319E /* Cloud_Kitchen_AppApp.swift */; };
+		1E5D2B6F273A322B003F0974 /* FinancialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D2B6E273A322B003F0974 /* FinancialsView.swift */; };
+		1E5D2B71273A328B003F0974 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D2B70273A328B003F0974 /* InventoryView.swift */; };
+		1E5D2B73273A32A2003F0974 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D2B72273A32A2003F0974 /* RecipeView.swift */; };
+		1E5D2B75273A32BC003F0974 /* GeneralTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D2B74273A32BC003F0974 /* GeneralTabView.swift */; };
+		1E5D2B77273A3580003F0974 /* LargeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D2B76273A3580003F0974 /* LargeBar.swift */; };
+		1E668D32273CDA0D004A7669 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E668D31273CDA0D004A7669 /* RecipeDetailView.swift */; };
+		1E8ACFD0270693B20051319E /* CloudKitchenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFCF270693B20051319E /* CloudKitchenApp.swift */; };
 		1E8ACFD2270693B20051319E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFD1270693B20051319E /* ContentView.swift */; };
 		1E8ACFD4270693B90051319E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8ACFD3270693B90051319E /* Assets.xcassets */; };
 		1E8ACFD7270693B90051319E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8ACFD6270693B90051319E /* Preview Assets.xcassets */; };
 		1E8ACFD9270693B90051319E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFD8270693B90051319E /* Persistence.swift */; };
 		1E8ACFDC270693B90051319E /* Cloud_Kitchen_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFDA270693B90051319E /* Cloud_Kitchen_App.xcdatamodeld */; };
+		1E8ACFE42706BAB80051319E /* BigButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFE32706BAB80051319E /* BigButton.swift */; };
+		1E8ACFE92706BDC10051319E /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFE82706BDC10051319E /* SmallButton.swift */; };
+		1E8ACFEB2706BE4F0051319E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFEA2706BE4F0051319E /* HomeView.swift */; };
+		1E8ACFED2706C9EF0051319E /* ExtensionColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8ACFEC2706C9EF0051319E /* ExtensionColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5D2B6E273A322B003F0974 /* FinancialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialsView.swift; sourceTree = "<group>"; };
+		1E5D2B70273A328B003F0974 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		1E5D2B72273A32A2003F0974 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		1E5D2B74273A32BC003F0974 /* GeneralTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTabView.swift; sourceTree = "<group>"; };
+		1E5D2B76273A3580003F0974 /* LargeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeBar.swift; sourceTree = "<group>"; };
+		1E668D31273CDA0D004A7669 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		1E8ACFCC270693B20051319E /* Cloud Kitchen App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Kitchen App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E8ACFCF270693B20051319E /* Cloud_Kitchen_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud_Kitchen_AppApp.swift; sourceTree = "<group>"; };
+		1E8ACFCF270693B20051319E /* CloudKitchenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitchenApp.swift; sourceTree = "<group>"; };
 		1E8ACFD1270693B20051319E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E8ACFD3270693B90051319E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E8ACFD6270693B90051319E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E8ACFD8270693B90051319E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1E8ACFDB270693B90051319E /* Cloud_Kitchen_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cloud_Kitchen_App.xcdatamodel; sourceTree = "<group>"; };
 		1E8ACFDD270693B90051319E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8ACFE32706BAB80051319E /* BigButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigButton.swift; sourceTree = "<group>"; };
+		1E8ACFE82706BDC10051319E /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		1E8ACFEA2706BE4F0051319E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E8ACFEC2706C9EF0051319E /* ExtensionColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +76,10 @@
 		1E8ACFCE270693B20051319E /* Cloud Kitchen App */ = {
 			isa = PBXGroup;
 			children = (
-				1E8ACFCF270693B20051319E /* Cloud_Kitchen_AppApp.swift */,
+				1E8ACFE72706BADD0051319E /* Views */,
+				1E8ACFE62706BAD50051319E /* ViewModel */,
+				1E8ACFE52706BACF0051319E /* Model */,
+				1E8ACFCF270693B20051319E /* CloudKitchenApp.swift */,
 				1E8ACFD1270693B20051319E /* ContentView.swift */,
 				1E8ACFD3270693B90051319E /* Assets.xcassets */,
 				1E8ACFD8270693B90051319E /* Persistence.swift */,
@@ -73,6 +96,37 @@
 				1E8ACFD6270693B90051319E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E8ACFE52706BACF0051319E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E8ACFE62706BAD50051319E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E8ACFEC2706C9EF0051319E /* ExtensionColors.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E8ACFE72706BADD0051319E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E5D2B76273A3580003F0974 /* LargeBar.swift */,
+				1E8ACFE32706BAB80051319E /* BigButton.swift */,
+				1E8ACFE82706BDC10051319E /* SmallButton.swift */,
+				1E8ACFEA2706BE4F0051319E /* HomeView.swift */,
+				1E5D2B6E273A322B003F0974 /* FinancialsView.swift */,
+				1E5D2B70273A328B003F0974 /* InventoryView.swift */,
+				1E5D2B72273A32A2003F0974 /* RecipeView.swift */,
+				1E5D2B74273A32BC003F0974 /* GeneralTabView.swift */,
+				1E668D31273CDA0D004A7669 /* RecipeDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +199,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E8ACFD9270693B90051319E /* Persistence.swift in Sources */,
+				1E5D2B71273A328B003F0974 /* InventoryView.swift in Sources */,
+				1E5D2B6F273A322B003F0974 /* FinancialsView.swift in Sources */,
+				1E8ACFEB2706BE4F0051319E /* HomeView.swift in Sources */,
+				1E5D2B73273A32A2003F0974 /* RecipeView.swift in Sources */,
+				1E8ACFE42706BAB80051319E /* BigButton.swift in Sources */,
+				1E5D2B77273A3580003F0974 /* LargeBar.swift in Sources */,
+				1E668D32273CDA0D004A7669 /* RecipeDetailView.swift in Sources */,
 				1E8ACFD2270693B20051319E /* ContentView.swift in Sources */,
+				1E8ACFE92706BDC10051319E /* SmallButton.swift in Sources */,
 				1E8ACFDC270693B90051319E /* Cloud_Kitchen_App.xcdatamodeld in Sources */,
-				1E8ACFD0270693B20051319E /* Cloud_Kitchen_AppApp.swift in Sources */,
+				1E8ACFD0270693B20051319E /* CloudKitchenApp.swift in Sources */,
+				1E5D2B75273A32BC003F0974 /* GeneralTabView.swift in Sources */,
+				1E8ACFED2706C9EF0051319E /* ExtensionColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

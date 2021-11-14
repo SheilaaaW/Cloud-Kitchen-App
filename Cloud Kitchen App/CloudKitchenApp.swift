@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Cloud_Kitchen_AppApp: App {
+struct CloudKitchenApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
